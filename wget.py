@@ -8,7 +8,7 @@
 __version__ = "1.0.0"
 
 def wget(url="",path="/download"):
-    from util.shell.new_urequests import get
+    from shell.new_urequests import get
     from os import mkdir
     from gc import collect
     debug = False
