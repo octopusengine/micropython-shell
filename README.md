@@ -4,8 +4,7 @@ simple Linux terminal writen in (and for) ESP32-Micropython
 >>> shell()
 uPyShell:~/$
 </pre>
-</ hr>
-
+-----
 <pre>
   ---------+--------------------------+--------------------
            | F: file name             |
