@@ -1,5 +1,10 @@
 # micropython-shell
 simple Linux terminal writen in (and for) ESP32-Micropython
+<pre>
+>>> shell()
+uPyShell:~/$
+</pre>
+</ hr>
 
 <pre>
   ---------+--------------------------+--------------------
