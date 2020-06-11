@@ -3,7 +3,7 @@
 # Copyright (c) 2016-2020 Jan Copak, Petr Kracik, Vasek Chalupnicek, Jan Cespivo, Milan
 
 """
-from util.shell import shell
+from shell import shell
 shell()
 
 > cat / edit / ls / mkdir / cp / rm / find / df ...
@@ -320,6 +320,7 @@ def top():
 def wifi(comm="on"):
     global _wc
 
+    # TODO: Remove depend libraries or document them
     if _wc is None:
         from util.wifi_connect import WiFiConnect
         _wc = WiFiConnect()
@@ -437,7 +438,7 @@ def exit():
 @command
 def help():
     print("octopusLAB - simple shell help:")
-    cat("util/octopus_shell_help.txt", False)
+    cat("shell/octopus_shell_help.txt", False)
     print()
 
 

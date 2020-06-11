@@ -4,7 +4,7 @@ This is simple interactive text file editor to be used as part of uPyShell
 This module has a dependency on re module and
 local .terminal for color support
 
-from util.shell.editor import edit
+from shell.editor import edit
 edit('/test.py')
 
 # This file is part of the octopusLAB project
