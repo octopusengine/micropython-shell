@@ -4,7 +4,7 @@ simple Linux terminal writen in (and for) ESP32-Micropython
 <pre>
   ---------+--------------------------+--------------------
            | F: file name             |
-           | M: "main.py"             |  octopusLAB 2019-20
+           | M: "main.py"             | octopusLAB 2019-20
   ---------+--------------------------+--------------------
      clear | clear display            |   
       free | free RAM (memory)        |
