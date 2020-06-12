@@ -17,7 +17,7 @@ autostart:
 last update:
 """
 
-__version__ = "0.33.1-20200505"  # 533
+__version__ = "0.33.2-20200611"  # 533
 
 # toto: kill, wget/wsend?, ...
 SEPARATOR_WIDTH = 50
@@ -275,7 +275,12 @@ def top():
     bar100 = 30
     print(terminal_color("-" * (bar100 + 20)))
     print(terminal_color("free Memory and Flash >"))
-    ram100 = 95000 # mem_alloc() * 100
+    # mem_alloc() * 100
+    if mem_free() > 3000000:
+        ram100 = 4100000 
+    else:
+        ram100 = 95000 # hypotetic maximum
+
     b1 = ram100 / bar100
     ram = mem_free()
     print("RAM:   ", end="")
