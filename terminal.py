@@ -18,7 +18,8 @@ def runningEffect(num = 16):
     from time import sleep_ms
     for ii in range(num):
         print(".",end="")
-        sleep_ms(200)
+        sleep_ms(20)
+    print()
 
 
 def printBar(num1,num2,char="|",col1=32,col2=33):
@@ -28,7 +29,7 @@ def printBar(num1,num2,char="|",col1=32,col2=33):
     print("]  ",end="")
 
 
-# --------------------------------------------------------
+# ---------------
 
 def printHead(s):
     print()
