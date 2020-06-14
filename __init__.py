@@ -1,6 +1,6 @@
 # This file is part of the octopusLAB project
 # The MIT License (MIT)
-# Copyright (c) 2016-2020 Jan Copak, Petr Kracik, Vasek Chalupnicek, Jan Cespivo, Milan
+# Copyright (c) 2016-2020 Jan Copak, Petr Kracik, Vasek Chalupnicek, Jan Cespivo, Milan Spacek
 
 """
 from shell import shell
