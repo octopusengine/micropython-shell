@@ -327,7 +327,7 @@ def wifi(comm="on"):
 
     # TODO: Remove depend libraries or document them
     if _wc is None:
-        from util.wifi_connect import WiFiConnect
+        from utils.wifi_connect import WiFiConnect
         _wc = WiFiConnect()
 
     if comm == "on":
