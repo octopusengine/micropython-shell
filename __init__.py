@@ -17,7 +17,7 @@ autostart:
 last update:
 """
 
-__version__ = "0.33.2-20200611"  # 533
+__version__ = "0.33.3-20200630"  # 533
 
 # toto: kill, wget/wsend?, ...
 SEPARATOR_WIDTH = 50
