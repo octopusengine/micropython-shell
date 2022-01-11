@@ -277,7 +277,7 @@ def top():
     print(terminal_color("free Memory and Flash >"))
     # mem_alloc() * 100
     if mem_free() > 3000000:
-        ram100 = 4100000 
+        ram100 = 4093504
     else:
         ram100 = 95000 # hypotetic maximum
 
@@ -287,7 +287,7 @@ def top():
     printBar(bar100 - int(ram / b1), int(ram / b1))
     print(terminal_color(str(ram / 1000) + " kB"))
 
-    flash100 = 2000000
+    flash100 = 2097152
     b1 = flash100 / bar100
     flash = df(False)
     print("Flash: ", end="")
