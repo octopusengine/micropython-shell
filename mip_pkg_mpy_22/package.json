@@ -1,12 +1,14 @@
 {
   "urls": [
-  ["shell/__init__.mpy", "github:octopusengine/micropython-shell/mip_pkg_mpy_22/shell/__init__.mpy"],    
+  ["shell/__init__.mpy", "github:octopusengine/micropython-shell/mip_pkg_mpy_22/shell/__init__.mpy"],
   ["shell/vt100.mpy", "github:octopusengine/micropython-shell/mip_pkg_mpy_22/shell/vt100.mpy"],
   ["shell/terminal.mpy", "github:octopusengine/micropython-shell/mip_pkg_mpy_22/shell/terminal.mpy"],
   ["shell/wget.mpy", "github:octopusengine/micropython-shell/mip_pkg_mpy_22/shell/wget.mpy"],
   ["shell/editor.mpy", "github:octopusengine/micropython-shell/mip_pkg_mpy_22/shell/editor.mpy"],
-  ["shell/editstr.mpy", "github:octopusengine/micropython-shell/mip_pkg_mpy_22/shell/editstr.mpy"], 
+  ["shell/editstr.mpy", "github:octopusengine/micropython-shell/mip_pkg_mpy_22/shell/editstr.mpy"],
   ["shell/octopus_shell_help.txt", "github:octopusengine/micropython-shell/mip_pkg_mpy_22/shell/octopus_shell_help.txt"],
+
+  ["shell/new_urequests/__init__.mpy", "github:octopusengine/micropython-shell/mip_pkg_mpy_22/shell/new_urequests/__init__.mpy"],
      
   ],
   "deps": [
