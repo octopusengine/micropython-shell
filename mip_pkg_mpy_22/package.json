@@ -5,6 +5,7 @@
   ["shell/terminal.mpy", "github:octopusengine/micropython-shell/mip_pkg_mpy_22/shell/terminal.mpy"],
   ["shell/wget.mpy", "github:octopusengine/micropython-shell/mip_pkg_mpy_22/shell/wget.mpy"],
   ["shell/editor.mpy", "github:octopusengine/micropython-shell/mip_pkg_mpy_22/shell/editor.mpy"],
+  ["shell/editstr.mpy", "github:octopusengine/micropython-shell/mip_pkg_mpy_22/shell/editstr.mpy"], 
   ["shell/octopus_shell_help.txt", "github:octopusengine/micropython-shell/mip_pkg_mpy_22/shell/octopus_shell_help.txt"],
      
   ],
